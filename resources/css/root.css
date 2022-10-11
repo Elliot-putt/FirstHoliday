@@ -1,0 +1,400 @@
+/* CLPT Brand Styling for use with the Central Suite */
+/* A suite designed and developed by the Web Development Team at CLPT */
+
+:root {
+    /* CLPT Primary Color from Header on the Website and the Logo */
+    --primary-color: #332d71;
+    /* Secondary Color is a lighter shade of the primary color */
+    --secondary-color: #5d5d98;
+
+
+    /* Bootstrap Colors */
+    --custom-blue: #bdd4e7;
+    --custom-blue-cadet: #58A4B0;
+    --custom-green: #57a773;
+    --custom-alt-green: #20732c;
+    --custom-grey: #CBD2D0;
+    --custom-grey-ash: #B0C0BC;
+    --custom-grey-black: #313131;
+    --custom-orange: #FEB95F;
+    --custom-pink: #EABFCB;
+    --custom-purple: #DEC1FF;
+    --custom-red: #db5461;
+    --custom-white: #FFFDFD;
+    --custom-yellow: #FCCA46;
+
+    --main_green: #57a773;
+    --sec_green: #20732c;
+    --main_grey: #a2abab;
+    --sec_grey: #98a2a2;
+    --main_red: #db5461;
+    --sec_red: #ea4460;
+    --main_yellow: #ffcd46;
+    --sec_yellow: #ffc733;
+    --main_blue: #a8dcd9;
+    --sec_blue: #9ad6d3;
+    --main_purple: #332D71;
+    --sec_purple: #3D287A;
+
+
+    /* Application Colors */
+    --assets-default: #aa63bf;
+    --record-default: #efbf5a;
+    --safeguarding-default: #ea4460;
+    --booking-default: #6768AB;
+
+
+
+    /* School Colors: */
+    --broadmeadow-primary: #2d4a7e;
+    --broadmeadow-secondary: #ba1b2a;
+    --coleridge-primary: #12aba8;
+    --coleridge-secondary: #005aa2;
+    --coppice-primary: #9f79b4;
+    --coppice-secondary: #FFF;
+    --deyncourt-primary: #c9261c;
+    --deyncourt-secondary: #000;
+    --eastdene-primary: #ffe351;
+    --eastdene-secondary: #005b9e;
+    --eastwood-primary: #eb612f;
+    --eastwood-secondary: #013b81;
+    --heathpark-primary: #001b54;
+    --heathpark-secondary: #0059a3;
+    --kingfisher-primary: #ffcd00;
+    --kingfisher-secondary: #bbbbbb;
+    --moseley-primary: #72277f;
+    --moseley-secondary: #f7a600;
+    --newbridge-primary: #69488e;
+    --newbridge-secondary: #69488e;
+    --riversides-primary: #345d9d;
+    --riversides-secondary: #8ab7e9;
+    --westcroft-primary: #004875;
+    --westcroft-secondary: #f4e504;
+    --vale-primary: #6fb1c8;
+    --vale-secondary: #fdca00;
+    --woden-primary: #213a81;
+    --woden-secondary: #ffe351;
+    --wvtc-primary: #4a972a;
+    --wvtc-secondary: #c51846;
+}
+
+body {
+    font-size: 16px;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-family: Quicksand, "Arial";
+}
+
+/* Header */
+
+/* Main Area */
+
+main {
+    min-height: calc(100vh - 17.2rem);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-color);
+}
+
+/* Login Screen */
+.login-logo {
+    height: 150px;
+    max-width: 100%
+}
+
+
+/* Tables */
+
+.custom-table {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600px;
+    border: none;
+}
+
+/* Background Colors */
+
+.bg-green {
+    background-color: var(--custom-green) !important;
+    color: #fff;
+    border-radius: 3px;
+}
+.text-purple {
+    color: var(--main_purple);
+}
+
+.btn-purple {
+    transition: 0.15s ease-in-out;
+    background-color: var(--main_purple);
+    color: #fff;
+    border-color: var(--main_purple);
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: var(--sec_purple);
+    border-color: var(--sec_purple);
+}
+
+.bg-purple {
+    background-color: var(--main_purple) !important;
+    color: #fff;
+    border-radius: 3px;
+}
+.bg-purple-sec {
+    background-color: var(--sec_purple) !important;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.bg-grey {
+    background-color: var(--custom-grey) !important;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.bg-red {
+    background-color: var(--custom-red);
+    color: white;
+}
+
+/* Buttons */
+
+.theme-btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: .5rem .7rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+
+.btn-green {
+    transition: 0.15s ease-in-out;
+    background-color: var(--custom-green);
+    color: #fff;
+    border-color: var(--custom-green);
+}
+
+.btn-green:hover {
+    color: #fff;
+    background-color: var(--custom-alt-green);
+    border-color: var(--custom-alt-green);
+}
+
+.btn-grey {
+    transition: 0.15s ease-in-out;
+    background-color: var(--custom-grey);
+    color: var(--custom-grey-black);
+    border-color: var(--custom-grey);
+}
+
+.btn-grey:hover {
+    color: var(--custom-grey-black);
+    background-color: var(--custom-grey-ash);
+    border-color: var(--custom-grey-ash);
+}
+
+
+.btn-red {
+    transition: 0.15s ease-in-out;
+    background-color: var(--main_red);
+    color: #fff;
+    border-color: var(--main_red);
+}
+
+.btn-red:hover {
+    color: #fff;
+    background-color: var(--sec_red);
+    border-color: var(--sec_red);
+}
+
+.btn-yellow {
+    transition: 0.15s ease-in-out;
+    background-color: var(--main_yellow);
+    color: #666;
+    border-color: var(--main_yellow);
+}
+
+.btn-yellow:hover {
+    color: #666;
+    background-color: var(--sec_yellow);
+    border-color: var(--sec_yellow);
+}
+
+.btn-blue {
+    transition: 0.15s ease-in-out;
+    background-color: var(--main_blue);
+    color: #666;
+    border-color: var(--main_blue);
+}
+
+.btn-blue:hover {
+    color: #666;
+    background-color: var(--sec_blue);
+    border-color: var(--sec_blue);
+}
+
+.btn-purple {
+    transition: 0.15s ease-in-out;
+    background-color: var(--main_purple);
+    color: #fff;
+    border-color: var(--main_purple);
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: var(--sec_purple);
+    border-color: var(--sec_purple);
+}
+
+.submit-btn {
+    background-color: rgb(255, 255, 255) !important;
+
+    color: #332d71;
+    transition: ease 250ms;
+    opacity: 100%;
+
+    border: 1px solid #332d71;
+}
+
+.submit-btn:hover {
+    background-color: #332d71 !important;
+    color: rgb(255, 255, 255);
+    transform: scale(1.02);
+    opacity: 100%;
+}
+
+.custom-green {
+    background-color: rgb(59, 173, 122);
+}
+
+.custom-green-btn:hover {
+    background-color: rgb(64, 184, 130);
+}
+
+.resetBtn {
+    background-color: transparent;
+
+    color: white;
+    transition: ease 250ms;
+    opacity: 100%;
+    width: 40%;
+    border: 1px solid white;
+}
+
+.resetBtn:hover {
+    background-color: white;
+    color: #332d71;
+}
+
+/* Headings */
+.main-header {
+    color: var(--primary-color);
+    margin: auto;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.main-header + hr {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/* Tables */
+
+/* Custom Table */
+.custom-table {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.custom-table thead tr, .custom-table tfoot tr {
+    color: var(--primary-color);
+}
+
+.custom-table thead tr {
+    border-bottom: solid 2px var(--secondary-color);
+}
+
+.custom-table tfoot tr {
+    border-top: solid 2px var(--secondary-color);
+}
+
+/* CLPT Brand */
+.custom-table th {
+    text-align: center;
+    padding: .5rem;
+    color: var(--primary-color);
+}
+
+.custom-table tr, .custom-table td, .custom-table th {
+    border: none;
+    border-collapse: collapse;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tbody tr:nth-child(even):hover {
+    background-color: #bfd1ec;
+}
+
+.custom-table tbody tr:nth-child(odd):hover {
+    background-color: #bfd1ec;
+}
+
+.custom-table td {
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.custom-table .actions {
+    text-align: center;
+}
+
+.custom-table .action-th {
+    width: 90px;
+    text-align: end;
+}
+
+.custom-table .action-th .no-arrow::after {
+    content: none;
+}
+
+.custom-blue {
+    background-color: var(--primary-color);
+}
+.purple-shadow{
+    box-shadow: inset 0 0 1.6em -0.6em var(--main_purple);
+}
+
