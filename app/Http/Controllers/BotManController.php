@@ -290,6 +290,7 @@ class BotManController extends Controller {
 
     public function airportDeal(BotMan $botman)
     {
+
         $botman->ask('What airport would you like to fly from?', function(Answer $answer, $bot) use ($botman) {
 
             $airport = $answer->getText();
@@ -304,6 +305,7 @@ class BotManController extends Controller {
                 $this->say("Here is a link to holidays from " . $foundAirport->name . ". <br><a target='_blank'  href='/package/filter?packages={$implode}'>Click here to find out more.<br> " . " <br> <img class='img-thumbnail' src='https://loremflickr.com/g/190/140/brazil'></a> ");
             } else
             {
+
                 $this->say("Oops. We can't find " . $airport . " in our selection list of airports please try again!");
                 $this->repeat();
             }
@@ -366,7 +368,7 @@ class BotManController extends Controller {
 
             } else
             {
-                $this->say("Oops. We can't find " . $hotel . " in our selection list of destination's please try again!");
+                $this->say("Oops. We can't find " . $hotel . " in our selection list of Hotel's please try again!");
                 $this->repeat();
             }
 
